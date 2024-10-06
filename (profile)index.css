@@ -1,0 +1,300 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 375px;
+  height: 812px;
+  margin: 0 auto;
+  background: rgba(0, 0, 18, 0.9);
+  overflow: hidden;
+  border-radius: 20px 20px 0 0;
+}
+.frame {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative;
+  width: 125px;
+  height: 127px;
+  margin: 110px 0 0 126px;
+  z-index: 6;
+}
+.whatsapp-image {
+  flex-shrink: 0;
+  position: relative;
+  width: 125px;
+  height: 132px;
+  background: url(./assets/images/b2c2dd3f-ace8-495d-9921-4572d73851fa.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 7;
+  border-radius: 64.5px;
+}
+.frame-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  gap: 5px;
+  position: relative;
+  width: 105px;
+  margin: 21px 0 0 134px;
+  z-index: 9;
+}
+.siya-dalela {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 20px;
+  color: #ffffff;
+  font-family: Space Grotesk, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 10;
+}
+.siyadalela {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 14px;
+  color: #ffffff;
+  font-family: Space Grotesk, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 11;
+}
+.frame-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative;
+  width: 92px;
+  margin: 16px 0 0 141px;
+  padding: 10px 10px 10px 10px;
+  cursor: pointer;
+  background: #e3dd4f;
+  border: none;
+  z-index: 12;
+  border-radius: 45px;
+}
+.edit-profile {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 12px;
+  color: #000000;
+  font-family: Space Grotesk, var(--default-font-family);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 13;
+}
+.frame-3 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 190px;
+  position: relative;
+  width: 292.529px;
+  margin: 66px 0 0 43px;
+  z-index: 14;
+}
+.frame-4 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 8px;
+  position: relative;
+  width: 82.529px;
+  z-index: 15;
+}
+.vector {
+  flex-shrink: 0;
+  position: relative;
+  width: 17.529px;
+  height: 18px;
+  background: url(./assets/images/36d50f46-f184-4341-bbd7-acef99c6e1c6.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 16;
+}
+.settings {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 14px;
+  color: #ffffff;
+  font-family: Space Grotesk, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 17;
+}
+.carousel-button {
+  flex-shrink: 0;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  z-index: 18;
+  overflow: hidden;
+  border-radius: 100px;
+  backdrop-filter: blur(4px);
+}
+.vector-5 {
+  position: relative;
+  width: 5.146px;
+  height: 8.333px;
+  margin: 5.833px 0 0 7.5px;
+  background: url(./assets/images/8262ce71-80ab-4c82-9f2b-5388409b9b42.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 19;
+}
+.frame-6 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 182px;
+  position: relative;
+  width: 294.001px;
+  margin: 30px 0 0 42px;
+  z-index: 20;
+}
+.frame-7 {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 9px;
+  position: relative;
+  width: 92.001px;
+  z-index: 21;
+}
+.group {
+  flex-shrink: 0;
+  position: relative;
+  width: 18.001px;
+  height: 18px;
+  background: url(./assets/images/979d285f-b79f-4657-aec8-0f79c245f838.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 22;
+}
+.password {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 14px;
+  color: #ffffff;
+  font-family: Space Grotesk, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 23;
+}
+.carousel-button-8 {
+  flex-shrink: 0;
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.08);
+  z-index: 24;
+  overflow: hidden;
+  border-radius: 100px;
+  backdrop-filter: blur(4px);
+}
+.vector-9 {
+  position: relative;
+  width: 5.146px;
+  height: 8.333px;
+  margin: 5.833px 0 0 7.5px;
+  background: url(./assets/images/e65da1aa-78d4-4139-b387-1cfb588ecb02.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 25;
+}
+.frame-a {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 194px;
+  position: relative;
+  width: 293.1px;
+  margin: 29px 0 0 43px;
+  z-index: 26;
+}
+.frame-b {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  gap: 9px;
+  position: relative;
+  width: 79.1px;
+  z-index: 27;
+}
+.vector-c {
+  flex-shrink: 0;
+  position: relative;
+  width: 17.1px;
+  height: 18px;
+  background: url(./assets/images/f8998be6-246c-4113-a5d2-5626544139d9.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 28;
+}
+.log-out {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 14px;
+  color: #ffffff;
+  font-family: Space Grotesk, var(--default-font-family);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 29;
+}
+.carousel-button-d {
+  flex-shrink: 0;
+  position: relative;
