@@ -1,0 +1,226 @@
+:root {
+  --default-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Ubuntu, "Helvetica Neue", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
+    "Source Han Sans CN", sans-serif;
+}
+
+.main-container {
+  overflow: hidden;
+}
+
+.main-container,
+.main-container * {
+  box-sizing: border-box;
+}
+
+input,
+select,
+textarea,
+button {
+  outline: 0;
+}
+
+.main-container {
+  position: relative;
+  width: 375px;
+  height: 812px;
+  margin: 0 auto;
+  background: url(../assets/images/d3a92a7c79977d7e5106dc3394ace7be1d70a045.png)
+    no-repeat center;
+  background-size: cover;
+  overflow: hidden;
+}
+.climate {
+  position: relative;
+  width: 222.5px;
+  height: 36.224px;
+  margin: 480px 0 0 83px;
+  background: url(./assets/images/91048bbc-215d-4ca6-9a29-e9d3606694e9.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 7;
+}
+.champions {
+  display: block;
+  position: relative;
+  height: 26px;
+  margin: 0.78px 0 0 134px;
+  color: #ffffff;
+  font-family: Space Grotesk, var(--default-font-family);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 25.52px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 13;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 10px;
+  position: relative;
+  width: 171px;
+  margin: 110px 0 0 102px;
+  padding: 16px 149px 16px 149px;
+  cursor: pointer;
+  background: linear-gradient(179.9deg, rgba(0, 161, 254, 0), #00a1fe);
+  border: none;
+  opacity: 0.15;
+  z-index: 9;
+  overflow: hidden;
+  border-radius: 52px;
+  backdrop-filter: blur(4px);
+}
+.go-menu {
+  flex-shrink: 0;
+  flex-basis: auto;
+  position: relative;
+  height: 20px;
+  color: #ffffff;
+  font-family: Space Grotesk, var(--default-font-family);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  text-align: left;
+  white-space: nowrap;
+  z-index: 10;
+}
+.carousel-button {
+  flex-shrink: 0;
+  position: relative;
+  width: 24px;
+  height: 24px;
+  background: rgba(255, 255, 255, 0.08);
+  z-index: 11;
+  overflow: hidden;
+  border-radius: 100px;
+  backdrop-filter: blur(4px);
+}
+.vector {
+  position: relative;
+  width: 6.175px;
+  height: 10px;
+  margin: 7px 0 0 9px;
+  background: url(./assets/images/5eda0533-e423-49c5-8052-01384e7b31ee.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 12;
+}
+.navigation {
+  position: relative;
+  width: 375px;
+  height: 83px;
+  margin: 20px 0 0 0;
+  background: rgba(0, 0, 0, 0.32);
+  z-index: 14;
+  overflow: visible auto;
+  border-radius: 0 0 24px 24px;
+  backdrop-filter: blur(12px);
+}
+.iphone-x-home {
+  position: relative;
+  width: 375px;
+  height: 34px;
+  margin: 49px 0 0 0;
+  z-index: 15;
+  overflow: visible auto;
+}
+.rectangle {
+  position: relative;
+  width: 134px;
+  height: 5px;
+  margin: 20px 0 0 121px;
+  background: url(./assets/images/b287a2ba-e11e-4e40-ba07-9c204db2f4e5.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 16;
+}
+.rectangle-1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #000000;
+  z-index: 2;
+}
+.group {
+  position: absolute;
+  width: 4.27%;
+  height: 1.97%;
+  top: 27.59%;
+  left: 39.47%;
+  background: url(./assets/images/030b256b-a23a-4ca3-b7c7-d7f7ea4b1afe.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 6;
+}
+.group-2 {
+  position: absolute;
+  width: 64%;
+  height: 29.56%;
+  top: 28.08%;
+  left: 17.87%;
+  z-index: 3;
+}
+.ellipse {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: url(./assets/images/339b499b-b006-4a10-bbaa-3693bd9783db.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 4;
+  border-radius: 50%;
+}
+.group-3 {
+  position: absolute;
+  width: 4.27%;
+  height: 1.97%;
+  top: 29.06%;
+  left: 64%;
+  background: url(./assets/images/c9314974-33b4-437b-8552-f3eb14891348.png)
+    no-repeat center;
+  background-size: 100% 100%;
+}
+.black-background {
+  position: absolute;
+  width: 56.8%;
+  height: 22.66%;
+  top: 31.03%;
+  left: 22.4%;
+  background: url(./assets/images/a273df93-fb07-4fca-a961-61b8a14830bf.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 8;
+  border-radius: 158.5px;
+  box-sizing: content-box;
+  backdrop-filter: blur(2px);
+}
+.group-4 {
+  position: absolute;
+  width: 4.27%;
+  height: 1.97%;
+  top: 32.76%;
+  left: 22.4%;
+  background: url(./assets/images/38abefb3-7502-414b-8b4b-9ffbcd68dc61.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 5;
+}
+.group-5 {
+  position: absolute;
+  width: 4.27%;
+  height: 1.97%;
+  top: 54.43%;
+  left: 64.53%;
+  background: url(./assets/images/6f9b1a62-be78-49d9-8ab8-4581e896ca13.png)
+    no-repeat center;
+  background-size: 100% 100%;
+  z-index: 1;
+}
